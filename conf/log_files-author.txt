@@ -1,0 +1,2 @@
+/opt/aem/author/crx-quickstart/logs/error.log
+/opt/aem/author/crx-quickstart/logs/stdout.log

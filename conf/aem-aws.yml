@@ -1,0 +1,16 @@
+aws:
+  access_key_id:
+  secret_access_key:
+  profile:
+  s3_bucket:
+  region:
+aem:
+  component:
+  id:
+  stack_prefix:
+recovery:
+  retry_counter: 360
+  retry_wait_in_seconds: 60
+ready:
+  retry_counter: 360
+  retry_wait_in_seconds: 60

@@ -1,0 +1,4 @@
+/var/log/httpd/access_log
+/var/log/httpd/default_error.log
+/var/log/httpd/dispatcher.log
+/var/log/httpd/error_log

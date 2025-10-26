@@ -1,0 +1,4 @@
+mem_cached
+mem_free
+mem_used_percent
+mem_buffered
