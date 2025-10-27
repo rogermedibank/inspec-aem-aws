@@ -66,6 +66,12 @@ end
 def init_aws_aem_instance_client(client, conf)
   if conf[:aem_component] == 'author-primary'
     client = client.full_set(conf[:aem_stack_prefix])
+    puts client
+    puts
+    puts client.author
+    puts
+    puts client.author.author_primary
+    puts
     [client, client.author.author_primary]
   elsif conf[:aem_component] == 'author-standby'
     client = client.full_set(conf[:aem_stack_prefix])
