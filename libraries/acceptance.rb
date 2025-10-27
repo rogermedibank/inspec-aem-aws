@@ -78,7 +78,7 @@ class Acceptance < Inspec.resource(1)
   end
 
   def has_author_primary_cloudwatch_collectd_metrics?(metric_name)
-    namespace = 'collectd'
+    namespace = 'CWAgent'
     @client_aem_aws.author.author_primary.component_metric?(namespace, metric_name)
   end
 
