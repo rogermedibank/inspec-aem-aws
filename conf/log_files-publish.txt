@@ -1,2 +1,1 @@
-/opt/aem/publish/crx-quickstart/logs/error.log
-/opt/aem/publish/crx-quickstart/logs/stdout.log
+
