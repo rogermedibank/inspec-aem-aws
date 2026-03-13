@@ -112,9 +112,9 @@ class Acceptance < Inspec.resource(1)
     @client_aem_aws.publish.component_ec2_metric?(metric_name)
   end
 
-  def has_publish_cloudwatch_loggroups?(logfile_name)
-    @client_aem_aws.publish.component_loggroup?(logfile_name)
-  end
+  #def has_publish_cloudwatch_loggroups?(logfile_name)
+  #  @client_aem_aws.publish.component_loggroup?(logfile_name)
+  #end
 
   def has_publish_cloudwatch_log_streams?(logfile_name)
     @client_aem_aws.publish.component_log_stream?(logfile_name)
